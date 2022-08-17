@@ -1,8 +1,8 @@
-import Counter from '../components/counter'
+import Home from '../components/pages/home'
 
 function App() {
   return (
-   <Counter/>
+   <Home/>
   );
 }
 

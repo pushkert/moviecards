@@ -1,0 +1,21 @@
+.appbarid {
+  background-color: $white;
+  box-shadow: none !important;
+  display: flex;
+  .searchInputWrapper {
+    .searchInput{
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid #000;
+      padding: 4px 32px;
+      border-radius: 100px;
+      transition: ease all .5s;
+      color: inherit !important;
+      &:hover, &:focus{
+          box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.1);
+          border-color: #0000;
+      }
+    }
+  }
+ 
+}
